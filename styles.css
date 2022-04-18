@@ -1,0 +1,53 @@
+body {
+    background-color: #32332b;
+    color: #e6501d
+}
+
+h1 {
+    font-family: "Monoton";
+    font-size: 50px;
+    background-color: #1e1c1d;
+}
+
+.sub-heading {
+    font-family: "Fredoka";
+    font-size: 20px;
+    text-align: center;
+    color: #b0c0b7;
+    margin-top: -5px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    border: black solid 3px;
+    background-color: #e6501d;
+}
+
+.drum-pad {
+    justify-self: stretch;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    color: white;
+}
+
+#display {
+    padding-top: 20px;
+    text-align: center;
+}
+
+€ .background-pad {
+    background-color: #e21f09;
+}
+
+.background-change {
+    background-color: #e2df04;
+}
